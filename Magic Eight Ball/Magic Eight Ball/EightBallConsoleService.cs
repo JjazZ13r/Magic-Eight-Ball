@@ -25,7 +25,10 @@ namespace Magic_Eight_Ball
             Console.WriteLine("What do you want to know?");
             Console.ResetColor();
             string userInput = Console.ReadLine();
-
+            if(userInput == "0")
+            {
+                Environment.Exit(0);
+            }
             rannum = r.Next(1, 20);
             switch(rannum)
             {
