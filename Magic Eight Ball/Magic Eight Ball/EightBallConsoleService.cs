@@ -22,7 +22,11 @@ namespace Magic_Eight_Ball
             Random r = new Random();
 
             Console.ForegroundColor = ConsoleColor.Magenta;
+<<<<<<< HEAD
             Console.WriteLine("What do you want to know? Enter 0 to exit program.");
+=======
+            Console.WriteLine("What do you want to know? Enter 0 to exit");
+>>>>>>> 76ca1b5b7b74e9f306e898b621482ac22fc8cd95
             Console.ResetColor();
             string userInput = Console.ReadLine();
             if(userInput == "0")
